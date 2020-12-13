@@ -17,3 +17,13 @@ body {
 .menuDiv {
     margin-top: 40px;
 }
+
+.partyMenu {
+    color: blue;
+    position: relative;
+}
+
+.partyText,
+.peopleParty {
+    position: absolute;
+}

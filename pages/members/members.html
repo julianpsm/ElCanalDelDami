@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members data</title>
+    <link rel="stylesheet" href="../../styles/members.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1><span class="marvel">YOUTUBE</span> DAMI Teams</h1>
+
+        <input id="nadie" type="radio" name="team" checked>
+        <label for="nadie">Nadie</label>
+
+        <input id="original" type="radio" name="team">
+        <label for="original">Originales</label>
+
+        <input id="contributor" type="radio" name="team">
+        <label for="contributor">Colaboradores</label>
+
+        <input id="miembrosDelCanal" type="radio" name="team">
+        <label for="miembrosDelCanal">Miembros</label>
+
+        <input id="pibeRandom" type="radio" name="team">
+        <label for="pibeRandom">Gente Random</label>
+
+        <br>
+        <ul class="characters">
+            <li id="angel" data-category="original contributor pibeRandom miembrosDelCanal">
+                <h2>Damian</h2>
+                <img src="../../src/fotos/miembros/damiansire.jpeg" alt="">
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="../../members.json"></script>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>

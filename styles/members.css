@@ -114,17 +114,17 @@ input:checked+label::before {
     transform: scale(0.5);
 }
 
-#original:checked~.characters [data-teams~="original"] h2,
-#contributor:checked~.characters [data-teams~="contributor"] h2,
-#pibeRandom:checked~.characters [data-teams~="pibeRandom"] h2,
-#miembrosDelCanal:checked~.characters [data-teams~="miembrosDelCanal"] h2 {
+#original:checked~.characters [data-category~="original"] h2,
+#contributor:checked~.characters [data-category~="contributor"] h2,
+#pibeRandom:checked~.characters [data-category~="pibeRandom"] h2,
+#miembrosDelCanal:checked~.characters [data-category~="miembrosDelCanal"] h2 {
     display: block;
 }
 
-#original:checked~.characters [data-teams~="original"] img,
-#contributor:checked~.characters [data-teams~="contributor"] img,
-#pibeRandom:checked~.characters [data-teams~="pibeRandom"] img,
-#miembrosDelCanal:checked~.characters [data-teams~="miembrosDelCanal"] img {
+#original:checked~.characters [data-category~="original"] img,
+#contributor:checked~.characters [data-category~="contributor"] img,
+#pibeRandom:checked~.characters [data-category~="pibeRandom"] img,
+#miembrosDelCanal:checked~.characters [data-category~="miembrosDelCanal"] img {
     animation: avatar 0.3s forwards;
 }
 

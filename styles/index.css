@@ -1,13 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400, 700);
 body {
     background-color: black;
     color: white;
     font-size: 40px;
     text-align: center;
-}
-
-.welcomeText {
-    color: red;
-    font-size: 100px;
+    font: "Oswald", sans-serif;
+    text-align: center;
 }
 
 .partyImg {
@@ -26,4 +24,8 @@ body {
 .partyText,
 .peopleParty {
     position: absolute;
+}
+
+.marvel {
+    color: #c00;
 }

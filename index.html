@@ -9,19 +9,62 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="welcomeText"> BIENVENID@ A LA PAGINA
-            <h1 class="welcomeText"> DAMI Y SUS SUBS</h1>
+    <div class="container">
+        <h1><span class="marvel">DAMI</span> Team</h1>
     </div>
     <div>
-        MEMBER DIRECTORY
-        <div class="menuDiv partyMenu">
-            <a href="./pages/members/members.html">
-                <img src="./src/fotos/allmembers.jpeg" class="peopleParty" alt="personas en una fiesta, levantando la mano">
-                <span class="partyText">Click aqui para ver  <br>los Miembros</span>
-            </a>
-        </div>
+        <a href="./pages/members/members.html">
+            <img src="./src/fotos/allmembers.jpeg" class="peopleParty" alt="personas en una fiesta, levantando la mano">
+            <span class="partyText">Click aqui para ver  <br>los Miembros</span>
+        </a>
     </div>
+    <table>
+        <caption>Tabla con la planificacion semanal</caption>
+        <tr>
+            <th scope="row">Lunes</th>
+            <td>Resolver entrevistas</td>
+        </tr>
+        <tr>
+            <th scope="row">Martes</th>
+            <td>Patrones de diseño</td>
+        </tr>
+        <tr>
+            <th scope="row">Miercoles</th>
+            <td>Inteligencia Artificial / Machine learning</td>
+        </tr>
+        <tr>
+            <th scope="row">Jueves</th>
+            <td>Angular / Flask / Librerias</td>
+        </tr>
+        <tr>
+            <th scope="row">Viernes</th>
+            <td>Estructura de datos</td>
+        </tr>
+        <tr>
+            <th scope="row">Sabado</th>
+            <td>Creacion de aplicaciones</td>
+        </tr>
+        <tr>
+            <th scope="row">Domingo</th>
+            <td>Algoritmos</td>
+        </tr>
+    </table>
+
 </body>
 
 </html>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 5px;
+        text-align: left;
+    }
+</style>

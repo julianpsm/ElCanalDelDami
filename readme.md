@@ -1,12 +1,13 @@
-/*
-Categoria:
-nadie
-original
-contributor
-miembrosDelCanal
+## Por defecto ponerte de categoria
 pibeRandom
-*/
-<li id="emma-frost" data-category="miembrosDelCanal">
-    <h2>nombre</h2>
-    <img src="imgLink">
-</li>
+
+## Categorias del canal:
+nadie
+
+original
+
+contributor
+
+miembrosDelCanal
+
+pibeRandom
